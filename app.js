@@ -8,7 +8,7 @@ const app = express();
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
-app.get('/', (req, res) => res.send("Hello world"));
+// app.get('/', (req, res) => res.send("Hello world"));
 
 app.post('/split-payments/compute', (req, res) => {
     const { ID, Amount, SplitInfo } = req.body;
