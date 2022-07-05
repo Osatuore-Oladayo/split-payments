@@ -1,0 +1,18 @@
+{
+    "ID": 13082,
+    "Amount": 4500,
+    "Currency": "NGN",
+    "CustomerEmail": "anon8@customers.io",
+    "SplitInfo": [
+        {
+            "SplitType": "FLAT",
+            "SplitValue": 450,
+            "SplitEntityId": "LNPYACC0019"
+        },
+        {
+            "SplitType": "FLAT",
+            "SplitValue": 2300,
+            "SplitEntityId": "LNPYACC0011"
+        }
+    ]
+}
