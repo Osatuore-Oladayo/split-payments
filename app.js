@@ -90,7 +90,7 @@ app.post('/split-payments/compute', (req, res) => {
     res.json(result);
 });
 
-app.listen(8000, () => {
+app.listen(process.env.PORT, () => {
     console.log("Server is listening at port 8000");
 });
 
