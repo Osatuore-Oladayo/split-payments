@@ -77,7 +77,6 @@ app.post('/split-payments/compute', (req, res) => {
             Amount
         })
 
-        count += 1;
 
     })
     // Balance should not be less than 0
